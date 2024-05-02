@@ -1,0 +1,33 @@
+{
+    "name": "RednoW",
+    "slug": "RednoW",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#8BD6F9"
+    },
+    "assetBundlePatterns": [
+        "**/*"
+    ],
+    "ios": {
+        "supportsTablet": true
+    },
+    "android": {
+        "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#8BD6F9"
+        }
+    },
+    "web": {
+        "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+        "eas": {
+        "projectId": "b4a2fe15-8551-4ebd-8403-49f56576cea0"
+        }
+    }
+}

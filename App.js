@@ -29,7 +29,7 @@ export default function App() {
       <Text
         style={{
           fontFamily: "HelloHeadlineW00Regular",
-          fontSize: 30,
+          fontSize: 35,
           color: "#ffffff", //or also known as style.words
         }}
       >

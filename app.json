@@ -1,4 +1,5 @@
 {
+"expo":{
     "name": "RednoW",
     "slug": "RednoW",
     "version": "1.0.0",
@@ -30,4 +31,4 @@
         "projectId": "b4a2fe15-8551-4ebd-8403-49f56576cea0"
         }
     }
-}
+}}

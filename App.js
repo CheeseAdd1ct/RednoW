@@ -33,7 +33,7 @@ export default function App() {
           color: "#ffffff", //or also known as style.words
         }}
       >
-        Oh biscuits!
+        Oh naur
       </Text>
       <Eat whattoeat="beans" />
       <Text>
@@ -46,6 +46,7 @@ export default function App() {
         height={200}/>
 
     </SafeAreaView>
+    
   );
 }
 //192.168.2.7

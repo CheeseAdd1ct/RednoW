@@ -1,6 +1,6 @@
 import { SafeAreaView, Text, View } from "react-native";
-import Eat from "./Components/eatdie";
-import Buttonss from "./Components/buttontt";
+import Eat from "../Components/eatdie";
+import Buttonss from "../Components/buttontt";
 import * as React from "react";
 import styles from "./assets/cssbutbetter";
 import { useFonts } from "expo-font";
@@ -11,7 +11,7 @@ export default function App() {
     HelloHeadlineW00Regular: require("./assets/fonts/HelloHeadlineW00Regular.ttf"),
   });
 
-  const onLayoutRootView = React.useCallback(async () => {
+  const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded || fontError) {
       await SplashScreen.hideAsync();
     }

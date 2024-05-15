@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#8BD6F9"
-      }
+      },
+      "package": "com.cheeseadd1ct.RednoW"
     },
     "web": {
       "favicon": "./assets/favicon.png"

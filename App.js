@@ -6,6 +6,9 @@ import styles from "./assets/cssbutbetter";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 
+import { WidgetPreview } from 'react-native-android-widget';
+import { HelloWidget } from './Components/Widgetcool';
+
 export default function App() {
   const [fontsLoaded, fontError] = useFonts({
     HelloHeadlineW00Regular: require("./assets/fonts/HelloHeadlineW00Regular.ttf"),
@@ -30,13 +33,18 @@ export default function App() {
           color: "#ffffff", //or also known as style.words
         }}
       >
-        Oh naur
+        Oh biscuits!
       </Text>
       <Eat whattoeat="beans" />
       <Text>
         {"\n"}
       </Text>
       <Buttonss buttontitle='thisbuttonn' />
+      <WidgetPreview
+        renderWidget={() => <HelloWidget />}
+        width={320}
+        height={200}
+      />
     </SafeAreaView>
     
   );
